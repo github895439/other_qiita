@@ -1,0 +1,3 @@
+「<script id="script_1">」タグ内
+
+var no_good_1 = ab,cd,ef; var no_good_2 = [ab,cd,ef]; var no_good_3 = [ab,cd,ef]; var good = ["ab","cd","ef"];

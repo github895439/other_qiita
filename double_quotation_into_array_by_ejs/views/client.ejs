@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>double quotation into array by ejs</title>
+<script id="script_1">
+var no_good_1 = <%= ToTemplate %>;
+var no_good_2 = [<%= ToTemplate %>];
+<%
+var no_good_3 = [];
+var good = [];
+
+for (var i = 0; i < ToTemplate.length; i++)
+{
+    no_good_3.push(ToTemplate[i].toString());
+    good.push("\"" + ToTemplate[i].toString() + "\"");
+}
+%>
+var no_good_3 = [<%- no_good_3 %>];
+var good = [<%- good %>];
+</script>
+</head>
+<body>
+「&lt;script id="script_1"&gt;」タグ内<br>
+<br>
+<script>
+var content = document.getElementById("script_1");
+document.write(content.text);
+</script>
+</body>
+</html>
