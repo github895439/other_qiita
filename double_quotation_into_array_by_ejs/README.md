@@ -101,5 +101,5 @@ document.write(content.text);
 var no_good_1 = ab,cd,ef; var no_good_2 = [ab,cd,ef]; var no_good_3 = [ab,cd,ef]; var good = ["ab","cd","ef"];
 ```
 
-上記は下記のgithubに。
-https://github.com/github895439/other_qiita/double_quotation_into_array_by_ejs
+上記は下記のgithubに。 
+https://github.com/github895439/other_qiita/tree/master/double_quotation_into_array_by_ejs
