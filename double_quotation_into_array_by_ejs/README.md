@@ -105,4 +105,4 @@ var no_good_1 = ab,cd,ef; var no_good_2 = [ab,cd,ef]; var no_good_3 = [ab,cd,ef]
 https://github.com/github895439/other_qiita/tree/master/double_quotation_into_array_by_ejs
 
 # 主な履歴
-2019/10/16　JSONの方法を追加  
+2019/10/16　JSONの方法を追加(good_2、good_3)  
