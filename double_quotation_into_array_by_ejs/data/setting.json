@@ -1,0 +1,4 @@
+{
+    "//": "JSON.parseがエラーになるためToTemplate_stringと同じ書き方はできない",
+    "notificationsOrder": ["MT", "RT", "FOLLOW"]
+}
